@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <header>
+        <h2>BIODATA FORM </h2>
+    </header>
+    <main>
+        
+        <form>
+            <fieldset>
+                <legend>Your address</legend>
+            <div><label for="First Name">First Name</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+            <input type="text" placeholder="" id="First Name"/></div><br>
+
+            <div><label for="Last Name">Last Name</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+            <input type="text" placeholder="" id="Last Name"/></div><br>
+
+            <div><label for="street">Street</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="street" placeholder="" id="street"/></div><br>
+
+            <div><label for="city">City</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="City" placeholder="" id="City"/>
+            </div><br>
+            </fieldset>
+
+            <fieldset>
+            <legend>Additional Details</legend>
+            <div><label for="Biography">Biography</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <textarea rows="3" cols="23"></textarea>
+            </div><br>
+
+            <div><label for="image">image</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="file" placeholder="choose file" id="choose file">
+            </div><br>
+
+            <div><label for="DOB">Age Group</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="DOB" placeholder="0 to 9 years" id="Age Group">
+            </div>
+            </fieldset>
+
+           <fieldset>
+            <legend>Interests</legend>
+            <div><label for="hobbies">Hobbies</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <select id="hobbies" name="hobbies" multiple>
+                    <option value="playing soccer">playing soccer</option>
+                    <option value="dancing">dancing</option>
+                    <option value="gardening">gardening</option>
+                    <option value="watching movies">watching movies</option>
+                </select>
+            </div><br>
+
+            <div><label for="Favourite">Favourite Car?</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <select>
+                    <option value="Volvo">volvo</option>
+                    <option value="Mercedez">mercedez</option>
+                    <option value="audi">audi</option>
+                    <option value="toyota">Toyota</option>                
+                </select>
+            </div><br>
+
+            <div><label for="transport">Favourite public transport</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <select id="transport" name="transport" multiple>
+                    <optgroup label="Ground">
+                    <option value="Train">Train</option>
+                    <option value="Bus">Bus</option>
+                    </optgroup>
+                    <optgroup label="Water"></optgroup>
+
+            </div>
+            </fieldset>
+            
+           </form>
+    </main>
+</body>
+</html>
